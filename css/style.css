@@ -31,7 +31,7 @@ nav {
 .menu-icon {
     width: 30px;
     height: 30px;
-    background-image: url(../images/s-icon.png);
+    background-image: url(../images/s-icon.jpg);
     background-repeat: repeat;
     background-position: center;
     cursor: pointer;
@@ -74,10 +74,21 @@ main ul {
   list-style: none;
 }
 
+.section1 {
+    width: 100%;
+}
+
+.logo {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
 h1 {
     margin-bottom: 20px;
     display: inline-block;
     font-size: 40px;
+    text-align: left;
 }
 
 a h2 ,
@@ -139,4 +150,19 @@ section {
 
 .section2 h2 {
     margin-bottom: 10px;
+}
+
+@media screen and (max-width:540px) {
+    .logo {
+        width: 60vw;
+    }
+    .section1 {
+        margin: 0px 0px;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    
+ 
 }
