@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>文芸部のホームページ</title>
     <link rel="stylesheet" href="./css/style.css">
-</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
 <body>
   <section>
     <header>
       <nav>
-          <a href="./index.html">
-            <div class="menu-icon"></div> 
-          </a>
+        <a href="./index.html">
+          <div class="menu-icon"></div> 
+        </a>
+        <div class ="menu">
           <ul>
-              <li><a href="./index.html">ホーム</a></li>
-              <li><a href="./works.html">作品紹介</a></li>
-              <li><a href="./contact.html">お問い合わせ</a></li>
-              <li><a href="./introduction.html">入部案内</a>
-              </li>
+            <li><a href="./index.html">ホーム</a></li>
+            <li><a href="./works.html">作品紹介</a></li>
+            <li><a href="./contact.html">お問い合わせ</a></li>
+            <li><a href="./introduction.html">入部案内</a></li>
           </ul>
+        </div>
       </nav>
-  </header>
+      <script>
+        document.querySelector('.nav_toggle').addEventListener('click', function () { document.querySelector('.nav_toggle').classList.toggle('show'); document.querySelector('.nav').classList.toggle('show'); });
+      </script>
+    </header>
   <main>
     <div class="circle"></div>
       <section class="section1">
@@ -36,16 +41,16 @@
         </section>
       <section class="section2">
         <h2>入部希望者へ</h2>
-        <p>文芸部では、新しい作風を求めています。もし文芸に興味があるなら、ぜひ一度お越しください。部員のほとんどが高専に入学してから執筆活動を始めた学生達です。気軽に訪れてください！</p>
+        <p>文芸部では、常に新しい作風を求めています。もし文芸に興味があるなら、ぜひ一度お越しください。部員のほとんどが高専に入学してから執筆活動を始めた学生達です。気軽に訪れてください！</p>
         <br><br>
         <a href="https://twitter.com/NITGC_bungei">
-          <img src="images/twitter.jpg" alt="">Twitter
+          <img src="images/twitter.jpg" alt="">Twitter:NITGC_bungei
         </a>
         <br><br>
         <a href="./introduction.html">入部案内を見る</a>
       </section>
     </main>
-    <script src="./js/script.js"></script>
+    <script src="./script.js"></script>
   </section>
 </body>
 </html>
