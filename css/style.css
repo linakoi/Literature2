@@ -176,3 +176,12 @@ section {
         margin: 20px 0;
     }
 }
+
+footer{
+    width: 100vw;
+    background-color: #ccc;
+}
+
+footer p {
+    text-align: center;
+}

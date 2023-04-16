@@ -113,3 +113,12 @@ main h1 {
         margin-bottom: 30px;
     }
 }
+
+footer{
+    width: 100vw;
+    background-color: #ccc;
+}
+
+footer p {
+    text-align: center;
+}
